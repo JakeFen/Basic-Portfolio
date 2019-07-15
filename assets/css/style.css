@@ -16,7 +16,7 @@ a {
     width: 960px;
 }
 
-ul a, p {
+ul a, p, label {
     color: #777777;
     font-size: 18px;
 }
@@ -72,8 +72,7 @@ h2 {
 .bottom-border {
     background: #dddddd;
     height: 3px;
-    margin: 0 auto;
-    width: 95%;
+    margin: 0 25px;
 }
 
 h1 a, button, .image-banner {
@@ -102,7 +101,22 @@ h1 a, button, .image-banner {
 
 /* ///////// CONTACT /////////// */
 
+.contact-container {
+    margin: 25px auto;
+}
 
+input, textarea {
+    width: 888px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+label {
+    width: 95%;
+    display: block;
+    margin: 20px auto 0;
+}
 
 /* ///////// PORTFOLIO /////////// */
 
