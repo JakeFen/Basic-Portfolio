@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-div, .about-me {
+    margin: auto;
+    width: 960px;
+}
+
+header {
+    border-bottom: solid #cccccc 1px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h1 a {
+    padding: 22px;
+
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+ul li {
+    padding: 10px;
+    float: left;
+    list-style-type: none;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+h1 a, button, .image-banner {
+    color: #fff;
+    background: #4aaaa5;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    border-top: solid #4aaaa5 5px;
+    background: #666666;
+    color: #FFFFFF;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+/* //////// PORTFOLIO //////// */
+
+
+
+/* //////// PORTFOLIO //////// */
