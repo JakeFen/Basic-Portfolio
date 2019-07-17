@@ -2,7 +2,12 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url('../images/memphis-mini.png');
-    height: 1000px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 /* ///////// MIXED CONTENT /////////// */
@@ -39,6 +44,11 @@ h1 a {
 
 }
 
+h1 a:hover {
+    background: #3e8e8a
+
+}
+
 nav {
     float: right;
 }
@@ -59,6 +69,10 @@ ul li {
 
 ul a {
     padding: 10px 20px;
+}
+
+ul a:hover {
+    color: #3e8e8a;
 }
 
 /* ///////// MIXED MAIN CONTENT /////////// */
@@ -101,6 +115,11 @@ h1 a, button, .image-banner {
 
 /* ///////// CONTACT /////////// */
 
+.portfolio-content {
+    width: 700px;
+    margin: 0 auto;
+}
+
 .contact-container {
     margin: 25px auto;
 }
@@ -110,12 +129,13 @@ input, textarea {
     display: block;
     margin: 0 auto;
     padding: 10px;
+    border: solid #cccccc 1px;
 }
 
 label {
     width: 95%;
     display: block;
-    margin: 20px auto 0;
+    margin: 20px auto 5px;
 }
 
 button {
@@ -124,11 +144,32 @@ button {
     margin: 25px 0 0 25px;
 }
 
+button:hover {
+    cursor: pointer;
+    background: #3e8e8a;
+}
+
 /* ///////// PORTFOLIO /////////// */
 
+.portfolio {
+    margin-bottom: 100px;
+}
 
+.image-container {
+    margin: 25px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
 
-/* footer */
+.image-banner {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px 0;
+}
+
+/* ///////// FOOTER /////////// */
 
 footer {
     position: fixed;
@@ -145,9 +186,3 @@ footer p {
     color: #c4c4c4;
     margin: 10px 0 5px;
 }
-
-/* //////// PORTFOLIO //////// */
-
-
-
-/* //////// PORTFOLIO //////// */
