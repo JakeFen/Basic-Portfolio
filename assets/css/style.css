@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url('../images/memphis-mini.png');
+    box-sizing: border-box;
 }
 
 .clearfix::after {
@@ -160,6 +161,12 @@ button:hover {
     position: relative;
     float: left;
     text-align: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 5px black;
 }
 
 .image-banner {
